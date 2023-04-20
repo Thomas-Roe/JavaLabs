@@ -1,4 +1,5 @@
 codetogether.first.time.usage.page.shown=true
+codetogether.last.session.ended=1681998886152
 codetogether.main.view.displayed=true
 default.auth=auto
 default.cursor=JOIN_CURSOR_ASK
@@ -7,4 +8,6 @@ default.edit=all
 default.run=all
 default.team.only=false
 eclipse.preferences.version=1
+first.feedback=1681998882246
+last.feedback=1681998882246
 uuid=Q4md9tNvJTd9WIw8rxRFH6
