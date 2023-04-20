@@ -1,0 +1,21 @@
+package lab08;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Account a1 = new Account("John", 100);
+		Account a2 = new Account("Charles", 200);
+		a1.getDetails();
+		a2.getDetails();
+		a1.addInterest();
+		a1.getDetails();
+		Account partnerAccount = a1;
+		partnerAccount.addInterest();
+		a1.getDetails();
+	}
+
+	
+
+}
+

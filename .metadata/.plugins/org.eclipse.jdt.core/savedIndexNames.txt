@@ -1,0 +1,20 @@
+INDEX VERSION 1.131+/Users/thomasroe/Documents/Labs/.metadata/.plugins/org.eclipse.jdt.core
+503568617.index
+1109129906.index
+1649532130.index
+1808309508.index
+4284526382.index
+3205495833.index
+1506142417.index
+1597679080.index
+4221544495.index
+1917863996.index
+307118045.index
+3696855655.index
+457019165.index
+1958636303.index
+2332522824.index
+2967056532.index
+495386185.index
+596742087.index
+1865797976.index
