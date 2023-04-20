@@ -1,0 +1,15 @@
+package lab08;
+
+public class Program {
+
+	public static void main(String[] args) {
+		Account a1 = new Account("John", 100);
+		a1.getDetails();
+		Account a2 = new Account("Charles", 200);
+		a2.getDetails();
+	}
+
+	
+
+}
+

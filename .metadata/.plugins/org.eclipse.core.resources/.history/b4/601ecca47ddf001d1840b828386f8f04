@@ -1,0 +1,14 @@
+package lab08;
+
+public class CurrentBankAccount extends BankAccount {
+	private int overdraft;
+	
+	public CurrentBankAccount(String owner, double balance, int overdraft){
+		super(owner,balance);
+		this.overdraft = overdraft;
+	}
+	@override
+	public void getDetails() {
+		System.out.println(this.BankAccountNum  +": Your name is " + this.owner + " and your balance is £" + this.balance + " and your overdraft limit is £" + this.overdraft);
+	}
+}
