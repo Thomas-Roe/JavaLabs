@@ -40,6 +40,6 @@ public void addInterest() {
 	balance = balance + (balance * interest);
 }
 public void getDetails() {
-	System.out.println(this.accountNum  +": Your name is " + this.owner + " and your balance is £" + this.balance);
+	System.out.println(id +"Your name is " + owner + " and your balance is £" + balance);
 }
 }

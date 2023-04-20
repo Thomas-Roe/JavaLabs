@@ -2,12 +2,11 @@ package lab08;
 
 public class Account {
 	private static int id = 100000;
-	private int accountNum;
 	private String owner;
 	private double balance;
 
 public Account(String owner, double balance) {
-	this.accountNum = ++id;
+	++id;
 	this.owner = owner;
 	this.balance = balance;
 }
@@ -40,6 +39,6 @@ public void addInterest() {
 	balance = balance + (balance * interest);
 }
 public void getDetails() {
-	System.out.println(this.accountNum  +": Your name is " + this.owner + " and your balance is £" + this.balance);
+	System.out.println(id +"Your name is " + owner + " and your balance is £" + balance);
 }
 }

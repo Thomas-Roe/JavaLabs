@@ -1627,3 +1627,12 @@ java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
 	at com.genuitec.eclipse.codetogether.comms.JsonRPCService.handle(JsonRPCService.java:135)
 	at com.genuitec.eclipse.codetogether.comms.BackendConnection.lambda$6(BackendConnection.java:656)
 	at com.genuitec.eclipse.codetogether.comms.RpcWorkerPool$1.run(RpcWorkerPool.java:23)
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2023-04-20 11:50:19.930
+!MESSAGE Connection closed with CodeTogether backend: Normal closure.
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2023-04-20 11:50:19.931
+!MESSAGE The CodeTogether session closed unexpectedly, trying to reconnect.
+
+!ENTRY com.genuitec.eclipse.codetogether.ui 1 0 2023-04-20 11:50:21.141
+!MESSAGE Connection closed with CodeTogether backend: Normal closure.
